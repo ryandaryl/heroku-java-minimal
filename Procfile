@@ -1,1 +1,1 @@
-web: java -jar target/heroku-java-minimal-1.0.jar
+web: java -Dserver.port=$PORT -jar target/heroku-java-minimal-1.0.jar
